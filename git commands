@@ -63,3 +63,19 @@ git pull    ## ( before pushing again )
 
 git push
 ## local file/folder moved to Github
+
+## AFTER EDITING HML FILE
+git status
+## show site modified for comit 
+
+git add .        OR      git add site/index.html  (for particular file)
+## mark everything from local folder to be committed
+
+git status
+## show site modified for comit 
+
+git commit -m"Small addition to our page content"
+## for comitting in locally not remotely ie Github
+
+git push
+## local file/folder moved to Github
