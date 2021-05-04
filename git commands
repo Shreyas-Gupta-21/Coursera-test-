@@ -1,0 +1,32 @@
+git clone https://github.com/Shreyas-Gupta-21/Coursera-test-.git 
+##for adding repo clone on PC
+
+dir
+## for seeeing if added in folder
+
+git status
+## for seeing status(files in) of repo
+
+cd Coursera-test-/
+## for select repo from folder
+
+dir
+## for seeeing if added in folder of repo
+
+git status
+## see status of branch selected
+
+mkdir site
+## make folder called site in repo folder
+
+cd site
+## for select folder made
+
+dir
+## for seeeing if something in folder site
+
+## make index.html file from sublime n save in site location 
+
+dir
+## for seeeing if index.html in site folder 
+
