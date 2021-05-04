@@ -1,0 +1,58 @@
+git clone https://github.com/Shreyas-Gupta-21/Coursera-test-.git 
+##for adding repo clone on PC
+
+dir
+## for seeeing if added in folder
+
+git status
+## for seeing status(files in) of repo
+
+cd Coursera-test-/
+## for select repo from folder
+
+dir
+## for seeeing if added in folder of repo
+
+git status
+## see status of branch selected
+
+mkdir site
+## make folder called site in repo folder
+
+cd site
+## for select folder made
+
+dir
+## for seeeing if something in folder site
+
+## make index.html file from sublime n save in site location 
+
+dir
+## for seeeing if index.html in site folder 
+
+git status
+## shows files not committed yet from site
+
+cd..
+## move to outer folder of site
+
+git status
+## show site not marked for comit as it resides on pc 
+
+git add . 
+## mark everything from local folder to be committed
+
+git status
+## show site marked for comit 
+
+##Before your first commit, you need to let git know your name and email address. This information will be tied to all of your future commits.
+## Use the commands:
+ git config --global user.name "Shreyas Gupta"
+ git config --global user.email "shreyasgup21@gmail.com
+ "
+git commit m"My First page."
+## for comitting changes, -m for showing a msg with commit
+## now everything stored locally not remotely ie Github
+
+git push
+## local file/folder moved to Github
