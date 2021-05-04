@@ -79,3 +79,13 @@ git commit -m"Small addition to our page content"
 
 git push
 ## local file/folder moved to Github
+
+## SEE BROWSER PAGE OF GIT
+
+browser-sync start --server --directory --files "*"
+## start to start browser-syn
+## --server to start in server mode ie local HTTP server
+## --directory gives directory listing of current folder ie site
+## --file for which files 
+## "*" for reload all files
+## THIS SHOW REAL TIME CHANGE OF CSS<HTML IN SITE
