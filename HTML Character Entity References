@@ -1,7 +1,8 @@
-THESE ARE USED TO HELP DIFFERENTIATE BETWEEN HTML COMMANDS AND TEXT PART OF CONTENT
+THESE ARE USED TO HELP DIFFERENTIATE BETWEEN HTML COMMANDS AND TEXT PART OF CONTENT ,   AVAOID RENDERING ISSSUES
 
 &lt; - for '<' 
 &gt; - for '>' 
 &amp; - for '&' 
 &copy; - for use copyright symbol
 &nnbsp; - for making a part of line continous always ie it does not break/readjusted when page is resized 
+&quote - for ' " ' double quotes
