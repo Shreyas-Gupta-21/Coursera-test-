@@ -71,3 +71,12 @@ LINKING PAGES
     </p>
   </div>
 </body>
+
+
+COMMENTING
+<! -- <something> -- >
+
+IMAGES
+<img src="http://lorempixel.com/output/nature-q-c-640-480-1.jpg" width="640" height="480">
+
+
