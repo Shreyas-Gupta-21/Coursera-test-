@@ -1,0 +1,38 @@
+HTML Character Entity References
+THESE ARE USED TO HELP DIFFERENTIATE BETWEEN HTML COMMANDS AND TEXT PART OF CONTENT ,   AVAOID RENDERING ISSSUES
+
+&lt; - for '<' 
+&gt; - for '>' 
+&amp; - for '&' 
+&copy; - for use copyright symbol
+&nnbsp; - make sure that 3 words in an HTML document ALWAYS appear together on 1 line, even if the text word-wraps because the browser window is too narrow for that text line, so 
+        place &nbsp; entity reference after the 1st word and after the 2nd word (with no spaces in between words and entity references)
+&quote - for ' " ' double quotes
+
+
+LINKING PAGES
+1) external link 
+   <body>
+  <h1 id="top">External Links</h1>
+  <section>
+    <p>
+      Let's link to a Facebook Fan page I created for this course!
+      <!-- link to Facebook page WITH TARGET-->
+      <a href="http://www.facebook.com/CourseraWebDev" 
+      target="_blank" title="Like Our Page!">Course Facebook Page</a>
+    </p>
+  </section>
+</body>
+
+2) Internal Links
+<body>
+  <h1>Internal Links</h1>
+  <section>
+    We can link to a file in the same directory as this HTML file like this:
+    <a href="same-directory.html" title="same dir link">Linking to a file in the same directory</a>
+
+    <a href="same-directory.html" title="same dir link">
+      <div> DIV Linking to a file in the same directory</div>
+    </a>
+  </section>
+</body>
