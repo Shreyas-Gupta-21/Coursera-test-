@@ -36,3 +36,33 @@ dev, .blue{   # grping selectors like here element , class selector eill have sa
 p.blue {          ## p element for class blue selctor ie for all classes name blue do these styling 
   color: blue;
   }
+
+# child selecor
+article > p {  # for all p which is child of article
+  color: blue;
+}
+USE
+<article>
+ <p> ... </p>  # here p direct child of article so will be effected
+</article>
+ # not of used like 
+<p>  ... </p>  OR
+<article>
+ <div><p> ... </p></div>  # here p indirect child of article so no effect
+</article>
+
+# descende selecor
+article  p {  # for all p which is part of article
+  color: blue;
+}
+USE 
+applicable for all cases used above- both direct , indirect child
+
+.class p { # for all p elements in a class
+}
+
+article > .class  {  # for all class which is  direct child of article
+}
+
+.cla.col{ # for all cla class having class called col do
+}
