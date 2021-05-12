@@ -1,6 +1,34 @@
 
-p {          ##selctor for a element is p ie for all paragraphs with label p do these styling 
+p {          ##p is element selctor ie for all paragraphs with label p do these styling 
   color: blue;
   font-size: 20px;
   width: 200px;
 }     
+
+.blue {          ## is class selctor ie for all classes name blue do these styling 
+  color: blue;
+  } 
+USE
+<p class="blue"> ... </p> ##p element shows effect of class blue as declared above 
+<p> ... </p>   #p element does not shows effect of class blue as no class delcared
+
+#name {          ## is id selctor ie for  id do these styling 
+  color: blue;
+  }
+USE
+<div id="name"> ... </div> ##div shows effect of id called name as declared above 
+<p> ... </p>   #p element does not shows effect of id as no id delcared  
+
+dev, .blue{   # grping selectors like here element , class selector eill have same propertties
+ color: blue;
+}
+
+
+.highlight {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  background-color: green;
+  opacity: .6;
+  text-align: center;
+}
