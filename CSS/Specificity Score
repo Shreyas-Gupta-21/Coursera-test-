@@ -1,1 +1,14 @@
+Arrange the selctors used in following order, then score each one based on which used, one with highest score wins(use that selection method)
 
+Style =" "   ID   class, pseudo class, attributes    Element
+___          __            ____                       ___
+
+Style =" "  most specific selector of all , used as: <h2 Style="color:green";> so score is 1000 the highest posiible
+
+div p { color:green; } , score = 0002 as descended selector combination for 2 elements used
+
+for            div #big{ color:green; }  OR div.big p { color:green; } 
+so score is as   0101                         0012     now 0101 > 0012 so first selection method is used not second
+
+for           p { color:green; }  OR   header.nav p { color:green; }
+o score is as    0001                       0012       now 0012 > 0001  so  second selection method is used
