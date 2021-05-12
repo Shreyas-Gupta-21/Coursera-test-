@@ -1,0 +1,20 @@
+.style {
+  font-family: Arial, Helvetica, sans-serif;     # for font type
+  color: #0000ff;
+  font-style: italic;    # for font style 
+  font-weight: bold;     # for font boldness can be simple bold  or use numbers like 10/500/40/etc
+  font-size: 24px;       /* points (pt) are used in print, not screen.*/
+  text-transform: uppercase;   # for font casing like uppercase/ lowercase / capitalize all etc
+  text-align: right;  
+}
+
+
+body {
+  font-size: 120%;   % is used to increase font by 120% od default device setting (mostly 16px)
+}
+                                        ## THIS IS RELATIVE TEXT SIZING
+<div style="font-size: 2em;">2em text   # here font-size:2em mean make the existing text size as twice of that, so since already 120% now make it 2 times of it 
+  <div style="font-size: 2em;">4em text #this makes this text 4 times overall larger than befoe as its 2 imes of 2 times of 120%
+    <div style="font-size: .5em;">2em again!</div>   # here font-size:.5em mean make the existing text size as half of that, so since already 2 times 120% now make it half times of it
+  </div>
+</div>
