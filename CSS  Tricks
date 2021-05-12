@@ -1,0 +1,6 @@
+
+p {          ##selctor for a element is p ie for all paragraphs with label p do these styling 
+  color: blue;
+  font-size: 20px;
+  width: 200px;
+}     
