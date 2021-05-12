@@ -1,0 +1,10 @@
+#box {
+  background-color: blue;
+  padding: 10px; #for all sides OR use 10px 10px 10px 10px ie 10 for top, right, bottom, left 
+  border: 5px solid black;
+  width: 300px;
+  height: 50px;
+  margin-top: 50px;
+  b0x-sizing: border-box;  #makes for whole box area enclosing content not content box area . For original content box use content-box but preferred
+  overflow: auto;
+}
