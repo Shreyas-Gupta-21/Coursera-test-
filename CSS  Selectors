@@ -34,9 +34,6 @@ dev, .blue{   # grping selectors like here element , class selector eill have sa
 }
 
 
-Style Placement
-1) Inline Placement
-<p style="text-align: center;">I am centered!</p>  #Good for quick testing  
 p.blue {          ## p element for class blue selctor ie for all classes name blue do these styling 
   color: blue;
   }
@@ -100,3 +97,8 @@ section div:nth-child(4):hover {    # for when hovering over 4th element
   background-color: green;
   cursor: pointer;
 }
+
+
+Style Placement
+1) Inline Placement
+<p style="text-align: center;">I am centered!</p>  #Good for quick testing  
