@@ -33,6 +33,10 @@ dev, .blue{   # grping selectors like here element , class selector eill have sa
   text-align: center;
 }
 
+
+Style Placement
+1) Inline Placement
+<p style="text-align: center;">I am centered!</p>  #Good for quick testing  
 p.blue {          ## p element for class blue selctor ie for all classes name blue do these styling 
   color: blue;
   }
