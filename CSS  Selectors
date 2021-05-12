@@ -66,3 +66,33 @@ article > .class  {  # for all class which is  direct child of article
 
 .cla.col{ # for all cla class having class called col do
 }
+
+Pseudo-Class Selectors - for interactive styling
+a:link, a:visited {  # for when visiting a linked(hyperlinked) element
+  text-decoration: none;
+  background-color: green;
+  border: 1px solid blue;
+  color: black;
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+a:hover, a:active {  # for when hovering over a element
+  background-color: red;
+  color: purple;
+}
+
+header li:nth-child(3) {  # for when  a specific element
+  font-size: 24px;
+}
+
+section div:nth-child(odd) {  # for when  odd only specific element
+  background-color: gray;
+}
+
+section div:nth-child(4):hover {    # for when hovering over 4th element
+  background-color: green;
+  cursor: pointer;
+}
