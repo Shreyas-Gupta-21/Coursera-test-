@@ -4,6 +4,16 @@
   background: url('yaakov.png') no-repeat top center; #1 image url , #2 tells how many times to repeat , #3 position of image
   background-color: blue; # image hass higher presedance than bg colour
 }
+ OR 
+#bg {
+  width: 500px;
+  height: 500px;   
+  background-color: blue;
+  background-image: url('yaakov.png');
+  background-repeat:no-repeat;
+  background-postion : top center;
+} 
+ #if use background: url('yaakov.png') no-repeat top center; then mention color seprately again as bg image will over rides bg color
 
 <div id="bg">Background properties are fun!</div>
 
