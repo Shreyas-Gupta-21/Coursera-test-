@@ -11,6 +11,7 @@
 
 *  { # make the following changes to all elements present irrespective of their inheritance
 box-sizing: border-box
-}
+margin : 0px;
+} #This can be used to overide certain default properties of browser like margin, padding values 
 
 ## For margins adjacent to each other cumulative margin is sum of both margins of individual elements but in case of top bottom elements the larger margin value prevails over smaller 
