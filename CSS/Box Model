@@ -4,7 +4,7 @@
   border: 5px solid black;
   width: 300px;
   height: 50px;
-  margin-top: 50px;
+  margin-top: 50px; # margin does not effect the overall width of content box
   box-sizing: border-box;  #makes for whole box area enclosing content not content box area . For original content box use content-box but preferred NOTE box-sizing is not inheritable so need to specify everywhere
   overflow: auto; # used to put scroll option when conten over floes available spce in defined box space given by width, heigth mentioned, used 'hidden' to hide the extra overflowing content
 }
