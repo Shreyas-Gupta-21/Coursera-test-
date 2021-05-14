@@ -6,7 +6,7 @@
   height: 50px;
   margin-top: 50px;
   box-sizing: border-box;  #makes for whole box area enclosing content not content box area . For original content box use content-box but preferred NOTE box-sizing is not inheritable so need to specify everywhere
-  overflow: auto; # used to put scroll option when conten over floes available spce in defined box space given by width, heigth mentioned, used ''
+  overflow: auto; # used to put scroll option when conten over floes available spce in defined box space given by width, heigth mentioned, used 'hidden' to hide the extra overflowing content
 }
 
 *  { # make the following changes to all elements present irrespective of their inheritance
