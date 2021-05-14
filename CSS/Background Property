@@ -1,0 +1,9 @@
+#bg {
+  width: 500px;
+  height: 500px;   #1            #2       #3
+  background: url('yaakov.png') no-repeat top center; #1 image url , #2 tells how many times to repeat , #3 position of image
+  background-color: blue; # image hass higher presedance than bg colour
+}
+
+<div id="bg">Background properties are fun!</div>
+
