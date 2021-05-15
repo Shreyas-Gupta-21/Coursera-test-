@@ -28,3 +28,8 @@ p {
   float: right;
   height: 100px;
 }
+
+#p3 {
+  background-color: #5F9EA0;
+  clear: both;
+}
