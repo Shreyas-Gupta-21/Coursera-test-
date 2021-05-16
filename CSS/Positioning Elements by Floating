@@ -31,7 +31,7 @@ p {
 
 #p3 {
   background-color: #5F9EA0;
-  clear: both;
+  clear: both; #does not allow any element float left, right of p3 element ,place p3 floating element when both left, right sides are clear
 }
 
 section {
