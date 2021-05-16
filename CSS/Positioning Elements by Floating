@@ -1,4 +1,4 @@
-# Floating element occupies different space than regular text of div. The exist "floatingly"
+# Floating element occupies different space than regular text of div. The exist "floatingly". Also floating elements dont touch margins of other elements unlike normal elements. 
 <h1>Floating Elements</h1>
 <div>
   <p id="p1"></p>
@@ -25,7 +25,7 @@ p {
 }
 #p2 {
   background-color: #DEB887;
-  float: right;
+  float: right;  # when float right or left the space occupied by element earlier is now occupied by other elements ie it gets filled does not remain empty
   height: 100px;
 }
 
@@ -35,7 +35,7 @@ p {
 }
 
 section {
-  clear: left;
+  clear: left;  #tell section that nothing should float on left,which means since we are floating elements on left here so the contentof section will now be below floating elements where thr left side has no floating elements.
 }
 
 #p4 {
