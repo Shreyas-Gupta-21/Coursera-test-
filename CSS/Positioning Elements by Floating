@@ -1,4 +1,4 @@
-# Floating element occupies different space than regular text of div. The exis "floatingly"
+# Floating element occupies different space than regular text of div. The exist "floatingly"
 <h1>Floating Elements</h1>
 <div>
   <p id="p1"></p>
