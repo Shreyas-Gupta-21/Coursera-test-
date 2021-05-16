@@ -1,1 +1,8 @@
+Relative elements have fixed spots even though visually placed differeny 
 
+#p1 {
+  background-color: #A52A2A;
+  position: relative;
+  top: 65px   Or bottom: -65px;  # move 65px from top
+  left: 65px OR right: -65px;
+} # 
