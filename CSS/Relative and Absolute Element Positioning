@@ -6,3 +6,5 @@ Relative elements have fixed spots even though visually placed differeny
   top: 65px   Or bottom: -65px;  # move 65px from top
   left: 65px OR right: -65px;
 } # 
+
+Absolute elements are positioned based on nearest relative positioned element other than static elements, element is out of normal document flow unlike Relative positioned elements 
