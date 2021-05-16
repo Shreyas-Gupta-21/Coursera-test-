@@ -1,15 +1,33 @@
 # static elements are default positioned elements
 
-#Relative elements have fixed spots even though visually placed differeny 
+#Relative elements have fixed spots even though visually placed different
+
+div#container {
+  background-color: #00FFFF;
+  position: relative;
+  top: 60px;
+}
+p {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+}
 
 #p1 {
   background-color: #A52A2A;
   position: relative;
   top: 65px   Or bottom: -65px;  # move 65px from top
   left: 65px OR right: -65px;
-} # 
+} 
 
-Absolute elements are positioned based on nearest relative positioned element other than static elements, element is out of normal document flow unlike Relative positioned elements 
+#p3 {
+  background-color: #5F9EA0;
+  position: absolute;  # Absolute elements are positioned based on nearest relative positioned element other than static elements, element is out of normal document flow unlike Relative positioned elements 
+
+  top: 0;
+  left: 0;
+}
 
 
 static positioning is default for all elements, except html. Html actually has it's positioning set to relative.
