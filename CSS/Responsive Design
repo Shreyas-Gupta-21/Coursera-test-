@@ -1,0 +1,2 @@
+for diffenet device we use 12 columns as they are divisible into 1,2,3,4,6,12 number of columns as per need
+like it can be 4,4,4 or 6,6 or 6,3,3 or or 4,4(2,2),6(4,2) possible columns combinations
