@@ -1,5 +1,10 @@
 for diffenet device we use 12 columns as they are divisible into 1,2,3,4,6,12 number of columns as per need
 like it can be 4,4,4 or 6,6 or 6,3,3 or or 4,4(2,2),6(4,2) possible columns combinations
+so 1-8.33 %
+   2-16.6%
+   3- 33.35
+   4-25%
+   6-50% of total col width available
 
 <meta name="viewport" content="width=device-width, initial-scale=1"> ## for telling phone not to zoom out while displaying website as we made it responsive
 
@@ -9,7 +14,7 @@ like it can be 4,4,4 or 6,6 or 6,3,3 or or 4,4(2,2),6(4,2) possible columns comb
     border: 1px solid green;
   }
   .col-lg-1 {
-    width: 8.33%;
+    width: 8.33%; # use % for fluis response
   }
   .col-lg-2 {
     width: 16.66%;
