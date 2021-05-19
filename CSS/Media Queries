@@ -5,6 +5,9 @@
  ## for large screen min width: 1200px
   ## for medium screen min width: 992px and max width: 1199px
  ## for small screen max width: 991px 
+ ## if condition like for medium size not meet then our divs will no longer be floated because the floating is only defined inside the media
+ queries which means they will behave just like regular block level elements and they will automatically stack one on top of the other. 
+ So as the devices get smaller and smaller, we get have one column with each one of these items stacked one on top of the other.
  
 @media (min-width: 768px) and (max-width: 991px) {  }     
 
