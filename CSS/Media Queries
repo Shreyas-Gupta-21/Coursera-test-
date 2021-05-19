@@ -2,7 +2,10 @@
       style   }
       
  ## declare @media after styling base elements so to change only some properties     
-      
+ ## for large screen min width: 1200px
+  ## for medium screen min width: 992px and max width: 1199px
+ ## for small screen max width: 991px 
+ 
 @media (min-width: 768px) and (max-width: 991px) {  }     
 
 @media (min-width: 768px) , (max-width: 991px) {  }     
