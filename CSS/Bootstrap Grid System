@@ -10,5 +10,7 @@
 ## BootstrapColumn Class
 
 col-size-span
-here size is for width range identifir like LG or MD etc. If browser width smaller than size used then columns collapse on each other
-Span for how many columns should element span ie 1-12 val
+here size is for width range identifir like LG or MD or sm or xs etc. If browser width smaller than size used then columns collapse on each other BUT for xs it will remain same size irrespective of browser size and never collapse
+Span for how many columns should element span ie 1-12 value
+
+
