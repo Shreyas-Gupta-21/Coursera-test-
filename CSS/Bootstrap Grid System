@@ -1,0 +1,8 @@
+## Bootstrap Grid System Layout
+
+  <div class="container-fluid">  ##streaches layout to full browser width , provide consistant padding around all content while just container class has fixed responsive width
+    <div class="row"> ## create horizontal grps of columns, coulmns r independent of different rows, also make -ve padding setup by container class so that content aligns properly with browser
+      <div class="col-md-4 col-sm-6">Col 1</div>
+      <div class="col-md-4 col-sm-6">Col 2</div>
+      <div class="col-md-4 col-sm-6">Col 3</div>
+    </div>
