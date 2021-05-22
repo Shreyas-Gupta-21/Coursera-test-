@@ -6,3 +6,9 @@
       <div class="col-md-4 col-sm-6">Col 2</div>
       <div class="col-md-4 col-sm-6">Col 3</div>
     </div>
+
+## BootstrapColumn Class
+
+col-size-span
+here size is for width range identifir like LG or MD etc. If browser width smaller than size used then columns collapse on each other
+Span for how many columns should element span ie 1-12 val
