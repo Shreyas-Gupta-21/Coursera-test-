@@ -90,3 +90,13 @@ header li:nth-child(3) {  # for when  a specific element
 section div:nth-child(odd) {  # for when  odd only specific element
   background-color: gray;
 }
+
+section div:nth-child(4):hover {    # for when hovering over 4th element
+  background-color: green;
+  cursor: pointer;
+}
+
+
+Style Placement
+1) Inline Placement
+<p style="text-align: center;">I am centered!</p>  #Good for quick testing  
