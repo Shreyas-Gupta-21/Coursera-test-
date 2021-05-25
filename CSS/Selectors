@@ -1,0 +1,12 @@
+p {          ##p is element selctor ie for all paragraphs with label p do these styling 
+  color: blue;
+  font-size: 20px;
+  width: 200px;
+}     
+
+.blue {          ## is class selctor ie for all classes name blue do these styling 
+  color: blue;
+  } 
+USE
+<p class="blue"> ... </p> ##p element shows effect of class blue as declared above 
+<p> ... </p>   #p element does not shows effect of class blue as no class delcared
